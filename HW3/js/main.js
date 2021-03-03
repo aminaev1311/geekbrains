@@ -1,5 +1,5 @@
 const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
-
+const my url = '';
 
 // Перевести на Promise НЕ ИСПОЛЬЗОВАТЬ fetch
 // let getRequest = (url, callBack) => {
