@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Dates calculator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.js"></script>
+    <script type="module" src="./js/main.js"></script>
+
+</head>
+
+<body>
+    <button id="btnDatesCalculator">Dates Calculator</button>
+    <button id="btnTimer">Timer</button>
+
+    <div id="datesCalculator">
+        <h3>Dates calculator</h3>
+        <form id="datesForm">
+            <label><strong>First date</strong>:&nbsp<input type="date" name="firstDate" id="firstDate"></label>
+            <label><strong>Second date</strong>:&nbsp<input type="date" name="secondDate" id="secondDate"></label>
+            <button type="submit">Calculate Difference</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <div id="timer">
+        <h3>Timer</h3>
+        <label>Enter the time in seconds:&nbsp<input type="number" id="timeInput">
+            <button id="start">Start</button> <button id="stop">Stop</button></label>
+        <p>Time left (in seconds):&nbsp<span id="timeLeft">Start the timer to begin</span></p>
+        <p id="timeIsOver"></p>
+    </div>
+</body>
+</html>
